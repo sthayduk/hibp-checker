@@ -25,6 +25,23 @@ cd hibp-checker-go
 go build -o hibp-checker
 ```
 
+### Cross-Platform Build
+
+Use the included build script to compile for all supported platforms:
+
+```bash
+./build.sh
+```
+
+This creates binaries in the `dist/` directory:
+
+| Platform | Binary |
+| --- | --- |
+| Windows x64 | `hibp-checker-windows-amd64.exe` |
+| Linux x64 | `hibp-checker-linux-amd64` |
+| macOS Intel | `hibp-checker-darwin-amd64` |
+| macOS Apple Silicon | `hibp-checker-darwin-arm64` |
+
 ## Usage
 
 ### Basic Usage

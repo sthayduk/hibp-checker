@@ -1,3 +1,5 @@
 hashes.txt
 exposed.txt
 hibp-checker
+dist/
+./build/
