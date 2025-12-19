@@ -151,7 +151,7 @@ hibp-checker-go/
 
 ### Typical Performance
 
-- ~1000 unique prefixes can be checked in ~2-3 minutes with 10 workers
+- **Benchmark**: 236,364 prefixes queried in ~10 minutes using 20 workers (~390 queries/second)
 - Actual speed depends on network latency and HIBP API response times
 
 ## License
