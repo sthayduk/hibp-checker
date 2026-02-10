@@ -13,34 +13,28 @@ A fast, concurrent command-line tool written in Go to check NTLM password hashes
 
 ## Installation
 
-### Prerequisites
+### Download Pre-built Binaries
 
-- Go 1.25.7 or later
+Grab the latest release for your platform from the [GitHub Releases](https://github.com/sthayduk/hibp-checker/releases) page.
+
+| Platform | Archive |
+| --- | --- |
+| Windows x64 | `hibp-checker-windows-amd64.zip` |
+| Windows ARM64 | `hibp-checker-windows-arm64.zip` |
+| Linux x64 | `hibp-checker-linux-amd64.tar.gz` |
+| Linux ARM64 | `hibp-checker-linux-arm64.tar.gz` |
+| macOS Intel | `hibp-checker-darwin-amd64.tar.gz` |
+| macOS Apple Silicon | `hibp-checker-darwin-arm64.tar.gz` |
 
 ### Build from Source
 
+**Prerequisites:** Go 1.25.7 or later
+
 ```bash
-git clone https://github.com/itdesign/hibp-checker-go.git
-cd hibp-checker-go
+git clone https://github.com/sthayduk/hibp-checker.git
+cd hibp-checker
 go build -o hibp-checker
 ```
-
-### Cross-Platform Build
-
-Use the included build script to compile for all supported platforms:
-
-```bash
-./build.sh
-```
-
-This creates binaries in the `dist/` directory:
-
-| Platform | Binary |
-| --- | --- |
-| Windows x64 | `hibp-checker-windows-amd64.exe` |
-| Linux x64 | `hibp-checker-linux-amd64` |
-| macOS Intel | `hibp-checker-darwin-amd64` |
-| macOS Apple Silicon | `hibp-checker-darwin-arm64` |
 
 ## Usage
 
