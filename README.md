@@ -79,7 +79,7 @@ go build -o hibp-checker
 
 ## Input File Format
 
-The input file should contain one account per line in the format:
+The input file should contain one account per line in the format. This is the same `user:hash` format used by [hashcat](https://hashcat.net/) (mode 1000):
 
 ```
 account:hash
