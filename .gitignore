@@ -3,3 +3,4 @@ exposed.txt
 hibp-checker
 dist/
 ./build/
+.DS_Store
