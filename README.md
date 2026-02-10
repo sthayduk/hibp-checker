@@ -15,7 +15,7 @@ A fast, concurrent command-line tool written in Go to check NTLM password hashes
 
 ### Prerequisites
 
-- Go 1.21 or later
+- Go 1.25.7 or later
 
 ### Build from Source
 
