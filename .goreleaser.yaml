@@ -1,3 +1,5 @@
+version: 2
+
 project_name: hibp-checker
 
 before:
@@ -22,11 +24,13 @@ builds:
       - -trimpath
 
 archives:
-  - format: tar.gz
+  - formats:
+      - tar.gz
     name_template: "{{ .ProjectName }}-{{ .Os }}-{{ .Arch }}"
     format_overrides:
       - goos: windows
-        format: zip
+        formats:
+          - zip
 
 changelog:
   sort: asc
